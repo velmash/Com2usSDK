@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 빌드 설정
-FRAMEWORK_NAME="MyGameSDK"
+FRAMEWORK_NAME="Com2usTestSDK"
 CONFIGURATION="Release"
 UNIVERSAL_OUTPUTFOLDER="build/${CONFIGURATION}-universal"
 

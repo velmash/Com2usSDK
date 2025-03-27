@@ -26,16 +26,13 @@ final class GoogleAuthService {
         }
         
         return try await withCheckedThrowingContinuation { continuation in
-            GIDSignIn.sharedInstance.signIn(
-                with: configuration,
-                presenting: presentingViewController
-            ) { user, error in
+            GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in
                 if let error = error {
                     continuation.resume(throwing: AuthError.signInFailed(error.localizedDescription))
                     return
                 }
                 
-                guard let user = user else {
+                guard let user = signInResult?.user else {
                     continuation.resume(throwing: AuthError.signInFailed("Unknown error"))
                     return
                 }

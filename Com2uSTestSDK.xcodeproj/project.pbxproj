@@ -64,7 +64,29 @@
 		3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAllNotificationsUseCase.swift; sourceTree = "<group>"; };
 		3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceImpl.swift; sourceTree = "<group>"; };
 		3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Com2uSTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3113D62D954BFD0047B5BB /* SDKPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3A3113E72D954BFF0047B5BB /* Exceptions for "SDKPlayground" folder in "SDKPlayground" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3A3113D52D954BFD0047B5BB /* SDKPlayground */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A3113D72D954BFD0047B5BB /* SDKPlayground */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3A3113E72D954BFF0047B5BB /* Exceptions for "SDKPlayground" folder in "SDKPlayground" target */,
+			);
+			path = SDKPlayground;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3A27F1C22D9524D10003040B /* Frameworks */ = {
@@ -73,6 +95,13 @@
 			files = (
 				3A0E59FB2D95260D00BF686B /* SnapKit in Frameworks */,
 				3A3113B02D953DE10047B5BB /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3113D32D954BFD0047B5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 			children = (
 				3A0E5A4E2D952CA600BF686B /* build_framework.sh */,
 				3A0E5A022D95270500BF686B /* Com2uSTestSDK */,
+				3A3113D72D954BFD0047B5BB /* SDKPlayground */,
 				3A3113AE2D953DE10047B5BB /* Frameworks */,
 				3A27F1C62D9524D10003040B /* Products */,
 			);
@@ -261,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */,
+				3A3113D62D954BFD0047B5BB /* SDKPlayground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,6 +339,28 @@
 			productReference = 3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		3A3113D52D954BFD0047B5BB /* SDKPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3113E82D954BFF0047B5BB /* Build configuration list for PBXNativeTarget "SDKPlayground" */;
+			buildPhases = (
+				3A3113D22D954BFD0047B5BB /* Sources */,
+				3A3113D32D954BFD0047B5BB /* Frameworks */,
+				3A3113D42D954BFD0047B5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3A3113D72D954BFD0047B5BB /* SDKPlayground */,
+			);
+			name = SDKPlayground;
+			packageProductDependencies = (
+			);
+			productName = SDKPlayground;
+			productReference = 3A3113D62D954BFD0047B5BB /* SDKPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -319,6 +372,9 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					3A27F1C42D9524D10003040B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3A3113D52D954BFD0047B5BB = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -342,6 +398,7 @@
 			projectRoot = "";
 			targets = (
 				3A27F1C42D9524D10003040B /* Com2uSTestSDK */,
+				3A3113D52D954BFD0047B5BB /* SDKPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +409,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0E5A052D95270500BF686B /* TodoList in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3113D42D954BFD0047B5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +449,13 @@
 				3A0E5A292D952A5F00BF686B /* SignInUseCase.swift in Sources */,
 				3A0E5A362D952B2700BF686B /* User.swift in Sources */,
 				3A0E5A482D952C4400BF686B /* NotificationRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3113D22D954BFD0047B5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +669,62 @@
 			};
 			name = Release;
 		};
+		3A3113E92D954BFF0047B5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP8CB3BY93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDKPlayground/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = velmash.SDKPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3113EA2D954BFF0047B5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP8CB3BY93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDKPlayground/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = velmash.SDKPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -615,6 +742,15 @@
 			buildConfigurations = (
 				3A27F1CE2D9524D10003040B /* Debug */,
 				3A27F1CF2D9524D10003040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3113E82D954BFF0047B5BB /* Build configuration list for PBXNativeTarget "SDKPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3113E92D954BFF0047B5BB /* Debug */,
+				3A3113EA2D954BFF0047B5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

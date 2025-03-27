@@ -1,0 +1,4 @@
+module AppAuth {
+umbrella "/Users/hyengchan/Documents/Dev/Com2uSTestSDK/.build/SourcePackages/checkouts/AppAuth-iOS/Sources/AppAuth"
+export *
+}

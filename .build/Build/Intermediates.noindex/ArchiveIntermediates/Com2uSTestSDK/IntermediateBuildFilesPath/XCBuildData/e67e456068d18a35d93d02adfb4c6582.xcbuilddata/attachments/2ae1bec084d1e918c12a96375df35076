@@ -1,0 +1,5 @@
+ extern const unsigned char Com2uSTestSDKVersionString[];
+ extern const double Com2uSTestSDKVersionNumber;
+
+ const unsigned char Com2uSTestSDKVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Com2uSTestSDK  PROJECT:Com2uSTestSDK-1" "\n";
+ const double Com2uSTestSDKVersionNumber __attribute__ ((used)) = (double)1.;

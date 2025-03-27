@@ -1,0 +1,4 @@
+module GoogleSignIn {
+umbrella header "/Users/hyengchan/Documents/Dev/Com2uSTestSDK/.build/SourcePackages/checkouts/GoogleSignIn-iOS/GoogleSignIn/Sources/Public/GoogleSignIn/GoogleSignIn.h"
+export *
+}

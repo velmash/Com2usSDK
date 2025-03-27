@@ -6,33 +6,94 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3A0C9AAD2D95256600483A20 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3A0C9AAC2D95256600483A20 /* GoogleSignIn */; };
+		3A0C9AAF2D95256600483A20 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A0C9AAE2D95256600483A20 /* GoogleSignInSwift */; };
+		3A0E59FB2D95260D00BF686B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A0E59FA2D95260D00BF686B /* SnapKit */; };
+		3A0E5A032D95270500BF686B /* Com2uSTestSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A002D95270500BF686B /* Com2uSTestSDK.docc */; };
+		3A0E5A042D95270500BF686B /* Com2uSTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0E59FF2D95270500BF686B /* Com2uSTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0E5A052D95270500BF686B /* TodoList in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A012D95270500BF686B /* TodoList */; };
+		3A0E5A102D95270A00BF686B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A062D95270A00BF686B /* AppDelegate.swift */; };
+		3A0E5A112D95270A00BF686B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A0D2D95270A00BF686B /* SceneDelegate.swift */; };
+		3A0E5A122D95270A00BF686B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A0E2D95270A00BF686B /* ViewController.swift */; };
+		3A0E5A132D95270A00BF686B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A072D95270A00BF686B /* Assets.xcassets */; };
+		3A0E5A152D95270A00BF686B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A0A2D95270A00BF686B /* LaunchScreen.storyboard */; };
+		3A0E5A162D95270A00BF686B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A0C2D95270A00BF686B /* Main.storyboard */; };
+		3A0E5A192D95272D00BF686B /* Com2usTestSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A182D95272D00BF686B /* Com2usTestSDK.swift */; };
+		3A0E5A1C2D9529CE00BF686B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A1B2D9529CE00BF686B /* AuthService.swift */; };
+		3A0E5A212D9529FE00BF686B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A202D9529FE00BF686B /* NotificationService.swift */; };
+		3A0E5A262D952A3D00BF686B /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A252D952A3D00BF686B /* AuthRepository.swift */; };
+		3A0E5A292D952A5F00BF686B /* SignInUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A282D952A5F00BF686B /* SignInUseCase.swift */; };
+		3A0E5A2B2D952A6900BF686B /* SignOutUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A2A2D952A6900BF686B /* SignOutUseCase.swift */; };
+		3A0E5A2E2D952A9400BF686B /* GoogleAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A2D2D952A9400BF686B /* GoogleAuthService.swift */; };
+		3A0E5A302D952A9900BF686B /* AuthRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A2F2D952A9900BF686B /* AuthRepositoryImpl.swift */; };
+		3A0E5A332D952AFE00BF686B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A322D952AFE00BF686B /* ProfileViewController.swift */; };
+		3A0E5A362D952B2700BF686B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A352D952B2700BF686B /* User.swift */; };
+		3A0E5A3A2D952B6300BF686B /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A392D952B6300BF686B /* NotificationDelegate.swift */; };
+		3A0E5A3F2D952B9200BF686B /* NotificationRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A3E2D952B9200BF686B /* NotificationRepositoryImpl.swift */; };
+		3A0E5A412D952BBC00BF686B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A402D952BBC00BF686B /* NotificationManager.swift */; };
+		3A0E5A452D952C1900BF686B /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A442D952C1900BF686B /* LocalNotification.swift */; };
+		3A0E5A482D952C4400BF686B /* NotificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A472D952C4400BF686B /* NotificationRepository.swift */; };
+		3A0E5A4B2D952C6400BF686B /* ScheduleNotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4A2D952C6400BF686B /* ScheduleNotificationUseCase.swift */; };
+		3A0E5A4D2D952C7600BF686B /* CancelNotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4C2D952C7600BF686B /* CancelNotificationUseCase.swift */; };
+		3A0E5A4F2D952CA600BF686B /* build_framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4E2D952CA600BF686B /* build_framework.sh */; };
+		3A0E5A512D952D3600BF686B /* AuthError.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A502D952D3600BF686B /* AuthError.swift */; };
+		3A0E5A532D952D4300BF686B /* NotificationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A522D952D4300BF686B /* NotificationError.swift */; };
+		3A0E5A552D952E0700BF686B /* NotificationServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */; };
+		3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */; };
+		3A0E5A592D952E4B00BF686B /* AuthServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		3A0E59FF2D95270500BF686B /* Com2uSTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Com2uSTestSDK.h; sourceTree = "<group>"; };
+		3A0E5A002D95270500BF686B /* Com2uSTestSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Com2uSTestSDK.docc; sourceTree = "<group>"; };
+		3A0E5A012D95270500BF686B /* TodoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = TodoList; sourceTree = "<group>"; };
+		3A0E5A062D95270A00BF686B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A0E5A072D95270A00BF686B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0E5A082D95270A00BF686B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0E5A092D95270A00BF686B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A0E5A0B2D95270A00BF686B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A0E5A0D2D95270A00BF686B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A0E5A0E2D95270A00BF686B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A0E5A182D95272D00BF686B /* Com2usTestSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Com2usTestSDK.swift; sourceTree = "<group>"; };
+		3A0E5A1B2D9529CE00BF686B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3A0E5A202D9529FE00BF686B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		3A0E5A252D952A3D00BF686B /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		3A0E5A282D952A5F00BF686B /* SignInUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUseCase.swift; sourceTree = "<group>"; };
+		3A0E5A2A2D952A6900BF686B /* SignOutUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutUseCase.swift; sourceTree = "<group>"; };
+		3A0E5A2D2D952A9400BF686B /* GoogleAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthService.swift; sourceTree = "<group>"; };
+		3A0E5A2F2D952A9900BF686B /* AuthRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryImpl.swift; sourceTree = "<group>"; };
+		3A0E5A322D952AFE00BF686B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3A0E5A352D952B2700BF686B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A0E5A392D952B6300BF686B /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		3A0E5A3E2D952B9200BF686B /* NotificationRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepositoryImpl.swift; sourceTree = "<group>"; };
+		3A0E5A402D952BBC00BF686B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		3A0E5A442D952C1900BF686B /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		3A0E5A472D952C4400BF686B /* NotificationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepository.swift; sourceTree = "<group>"; };
+		3A0E5A4A2D952C6400BF686B /* ScheduleNotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleNotificationUseCase.swift; sourceTree = "<group>"; };
+		3A0E5A4C2D952C7600BF686B /* CancelNotificationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelNotificationUseCase.swift; sourceTree = "<group>"; };
+		3A0E5A4E2D952CA600BF686B /* build_framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_framework.sh; sourceTree = "<group>"; };
+		3A0E5A502D952D3600BF686B /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		3A0E5A522D952D4300BF686B /* NotificationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationError.swift; sourceTree = "<group>"; };
+		3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServiceImpl.swift; sourceTree = "<group>"; };
+		3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAllNotificationsUseCase.swift; sourceTree = "<group>"; };
+		3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceImpl.swift; sourceTree = "<group>"; };
 		3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Com2uSTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A27F1D62D9525010003040B /* Com2usSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Com2usSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3A27F1CC2D9524D10003040B /* Exceptions for "Com2uSTestSDK" folder in "Com2uSTestSDK" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				Com2uSTestSDK.h,
-			);
-			target = 3A27F1C42D9524D10003040B /* Com2uSTestSDK */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3A27F1C72D9524D10003040B /* Com2uSTestSDK */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3A27F1CC2D9524D10003040B /* Exceptions for "Com2uSTestSDK" folder in "Com2uSTestSDK" target */,
-			);
-			path = Com2uSTestSDK;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3A27F1C22D9524D10003040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0E59FB2D95260D00BF686B /* SnapKit in Frameworks */,
+				3A0C9AAD2D95256600483A20 /* GoogleSignIn in Frameworks */,
+				3A0C9AAF2D95256600483A20 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A27F1D32D9525010003040B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,10 +103,194 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0E5A022D95270500BF686B /* Com2uSTestSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A172D95271000BF686B /* Public */,
+				3A0E5A222D952A2200BF686B /* Authentication */,
+				3A0E5A372D952B4D00BF686B /* Notification */,
+				3A0E59FF2D95270500BF686B /* Com2uSTestSDK.h */,
+				3A0E5A002D95270500BF686B /* Com2uSTestSDK.docc */,
+				3A0E5A012D95270500BF686B /* TodoList */,
+			);
+			path = Com2uSTestSDK;
+			sourceTree = "<group>";
+		};
+		3A0E5A0F2D95270A00BF686B /* Com2usSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A062D95270A00BF686B /* AppDelegate.swift */,
+				3A0E5A072D95270A00BF686B /* Assets.xcassets */,
+				3A0E5A082D95270A00BF686B /* Info.plist */,
+				3A0E5A0A2D95270A00BF686B /* LaunchScreen.storyboard */,
+				3A0E5A0C2D95270A00BF686B /* Main.storyboard */,
+				3A0E5A0D2D95270A00BF686B /* SceneDelegate.swift */,
+				3A0E5A0E2D95270A00BF686B /* ViewController.swift */,
+			);
+			path = Com2usSDKExample;
+			sourceTree = "<group>";
+		};
+		3A0E5A172D95271000BF686B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A182D95272D00BF686B /* Com2usTestSDK.swift */,
+				3A0E5A1A2D9529C700BF686B /* Auth */,
+				3A0E5A1F2D9529F600BF686B /* Notification */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		3A0E5A1A2D9529C700BF686B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A1B2D9529CE00BF686B /* AuthService.swift */,
+				3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */,
+				3A0E5A502D952D3600BF686B /* AuthError.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3A0E5A1F2D9529F600BF686B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A202D9529FE00BF686B /* NotificationService.swift */,
+				3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */,
+				3A0E5A522D952D4300BF686B /* NotificationError.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		3A0E5A222D952A2200BF686B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A232D952A2F00BF686B /* Domain */,
+				3A0E5A2C2D952A8B00BF686B /* Data */,
+				3A0E5A312D952AE200BF686B /* Presentation */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3A0E5A232D952A2F00BF686B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A342D952B2200BF686B /* Models */,
+				3A0E5A272D952A5100BF686B /* UseCase */,
+				3A0E5A242D952A3500BF686B /* Repository */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3A0E5A242D952A3500BF686B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A252D952A3D00BF686B /* AuthRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3A0E5A272D952A5100BF686B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A282D952A5F00BF686B /* SignInUseCase.swift */,
+				3A0E5A2A2D952A6900BF686B /* SignOutUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		3A0E5A2C2D952A8B00BF686B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A2D2D952A9400BF686B /* GoogleAuthService.swift */,
+				3A0E5A2F2D952A9900BF686B /* AuthRepositoryImpl.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3A0E5A312D952AE200BF686B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A322D952AFE00BF686B /* ProfileViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3A0E5A342D952B2200BF686B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A352D952B2700BF686B /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A0E5A372D952B4D00BF686B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A422D952BD800BF686B /* Domain */,
+				3A0E5A3B2D952B8500BF686B /* Data */,
+				3A0E5A382D952B5700BF686B /* Presensation */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		3A0E5A382D952B5700BF686B /* Presensation */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A392D952B6300BF686B /* NotificationDelegate.swift */,
+			);
+			path = Presensation;
+			sourceTree = "<group>";
+		};
+		3A0E5A3B2D952B8500BF686B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A402D952BBC00BF686B /* NotificationManager.swift */,
+				3A0E5A3E2D952B9200BF686B /* NotificationRepositoryImpl.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3A0E5A422D952BD800BF686B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A432D952C1200BF686B /* Model */,
+				3A0E5A462D952C3100BF686B /* Repository */,
+				3A0E5A492D952C5700BF686B /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3A0E5A432D952C1200BF686B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A442D952C1900BF686B /* LocalNotification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A0E5A462D952C3100BF686B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A472D952C4400BF686B /* NotificationRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3A0E5A492D952C5700BF686B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E5A4A2D952C6400BF686B /* ScheduleNotificationUseCase.swift */,
+				3A0E5A4C2D952C7600BF686B /* CancelNotificationUseCase.swift */,
+				3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 		3A27F1BB2D9524D10003040B = {
 			isa = PBXGroup;
 			children = (
-				3A27F1C72D9524D10003040B /* Com2uSTestSDK */,
+				3A0E5A4E2D952CA600BF686B /* build_framework.sh */,
+				3A0E5A022D95270500BF686B /* Com2uSTestSDK */,
+				3A0E5A0F2D95270A00BF686B /* Com2usSDKExample */,
 				3A27F1C62D9524D10003040B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */,
+				3A27F1D62D9525010003040B /* Com2usSDKExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +311,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E5A042D95270500BF686B /* Com2uSTestSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,15 +331,34 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3A27F1C72D9524D10003040B /* Com2uSTestSDK */,
-			);
 			name = Com2uSTestSDK;
 			packageProductDependencies = (
+				3A0C9AAC2D95256600483A20 /* GoogleSignIn */,
+				3A0C9AAE2D95256600483A20 /* GoogleSignInSwift */,
+				3A0E59FA2D95260D00BF686B /* SnapKit */,
 			);
 			productName = Com2uSTestSDK;
 			productReference = 3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		3A27F1D52D9525010003040B /* Com2usSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A27F1E82D9525030003040B /* Build configuration list for PBXNativeTarget "Com2usSDKExample" */;
+			buildPhases = (
+				3A27F1D22D9525010003040B /* Sources */,
+				3A27F1D32D9525010003040B /* Frameworks */,
+				3A27F1D42D9525010003040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Com2usSDKExample;
+			packageProductDependencies = (
+			);
+			productName = Com2usSDKExample;
+			productReference = 3A27F1D62D9525010003040B /* Com2usSDKExample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,9 +367,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					3A27F1C42D9524D10003040B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3A27F1D52D9525010003040B = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -117,12 +387,17 @@
 			);
 			mainGroup = 3A27F1BB2D9524D10003040B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3A0C9AAB2D95256600483A20 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				3A0E59F92D95260D00BF686B /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3A27F1C62D9524D10003040B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3A27F1C42D9524D10003040B /* Com2uSTestSDK */,
+				3A27F1D52D9525010003040B /* Com2usSDKExample */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +407,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E5A052D95270500BF686B /* TodoList in Resources */,
+				3A0E5A512D952D3600BF686B /* AuthError.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A27F1D42D9525010003040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0E5A4F2D952CA600BF686B /* build_framework.sh in Resources */,
+				3A0E5A132D95270A00BF686B /* Assets.xcassets in Resources */,
+				3A0E5A152D95270A00BF686B /* LaunchScreen.storyboard in Resources */,
+				3A0E5A162D95270A00BF686B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,10 +430,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E5A212D9529FE00BF686B /* NotificationService.swift in Sources */,
+				3A0E5A1C2D9529CE00BF686B /* AuthService.swift in Sources */,
+				3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */,
+				3A0E5A332D952AFE00BF686B /* ProfileViewController.swift in Sources */,
+				3A0E5A2E2D952A9400BF686B /* GoogleAuthService.swift in Sources */,
+				3A0E5A592D952E4B00BF686B /* AuthServiceImpl.swift in Sources */,
+				3A0E5A032D95270500BF686B /* Com2uSTestSDK.docc in Sources */,
+				3A0E5A4B2D952C6400BF686B /* ScheduleNotificationUseCase.swift in Sources */,
+				3A0E5A302D952A9900BF686B /* AuthRepositoryImpl.swift in Sources */,
+				3A0E5A532D952D4300BF686B /* NotificationError.swift in Sources */,
+				3A0E5A452D952C1900BF686B /* LocalNotification.swift in Sources */,
+				3A0E5A3F2D952B9200BF686B /* NotificationRepositoryImpl.swift in Sources */,
+				3A0E5A552D952E0700BF686B /* NotificationServiceImpl.swift in Sources */,
+				3A0E5A4D2D952C7600BF686B /* CancelNotificationUseCase.swift in Sources */,
+				3A0E5A262D952A3D00BF686B /* AuthRepository.swift in Sources */,
+				3A0E5A3A2D952B6300BF686B /* NotificationDelegate.swift in Sources */,
+				3A0E5A2B2D952A6900BF686B /* SignOutUseCase.swift in Sources */,
+				3A0E5A192D95272D00BF686B /* Com2usTestSDK.swift in Sources */,
+				3A0E5A412D952BBC00BF686B /* NotificationManager.swift in Sources */,
+				3A0E5A292D952A5F00BF686B /* SignInUseCase.swift in Sources */,
+				3A0E5A362D952B2700BF686B /* User.swift in Sources */,
+				3A0E5A482D952C4400BF686B /* NotificationRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A27F1D22D9525010003040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0E5A102D95270A00BF686B /* AppDelegate.swift in Sources */,
+				3A0E5A112D95270A00BF686B /* SceneDelegate.swift in Sources */,
+				3A0E5A122D95270A00BF686B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A0E5A0A2D95270A00BF686B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0E5A092D95270A00BF686B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A0E5A0C2D95270A00BF686B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0E5A0B2D95270A00BF686B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3A27F1CE2D9524D10003040B /* Debug */ = {
@@ -163,6 +502,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -196,6 +536,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +680,64 @@
 			};
 			name = Release;
 		};
+		3A27F1E92D9525030003040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP8CB3BY93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Com2usSDKExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = velmash.Com2usSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A27F1EA2D9525030003040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP8CB3BY93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Com2usSDKExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = velmash.Com2usSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -360,7 +759,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3A27F1E82D9525030003040B /* Build configuration list for PBXNativeTarget "Com2usSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A27F1E92D9525030003040B /* Debug */,
+				3A27F1EA2D9525030003040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A0C9AAB2D95256600483A20 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		3A0E59F92D95260D00BF686B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A0C9AAC2D95256600483A20 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A0C9AAB2D95256600483A20 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3A0C9AAE2D95256600483A20 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A0C9AAB2D95256600483A20 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		3A0E59FA2D95260D00BF686B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A0E59F92D95260D00BF686B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3A27F1BC2D9524D10003040B /* Project object */;
 }

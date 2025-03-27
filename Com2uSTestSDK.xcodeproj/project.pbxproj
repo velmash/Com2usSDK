@@ -30,8 +30,6 @@
 		3A0E5A482D952C4400BF686B /* NotificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A472D952C4400BF686B /* NotificationRepository.swift */; };
 		3A0E5A4B2D952C6400BF686B /* ScheduleNotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4A2D952C6400BF686B /* ScheduleNotificationUseCase.swift */; };
 		3A0E5A4D2D952C7600BF686B /* CancelNotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4C2D952C7600BF686B /* CancelNotificationUseCase.swift */; };
-		3A0E5A4F2D952CA600BF686B /* build_framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4E2D952CA600BF686B /* build_framework.sh */; };
-		3A0E5A512D952D3600BF686B /* AuthError.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A502D952D3600BF686B /* AuthError.swift */; };
 		3A0E5A532D952D4300BF686B /* NotificationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A522D952D4300BF686B /* NotificationError.swift */; };
 		3A0E5A552D952E0700BF686B /* NotificationServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */; };
 		3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */; };
@@ -67,7 +65,6 @@
 		3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAllNotificationsUseCase.swift; sourceTree = "<group>"; };
 		3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceImpl.swift; sourceTree = "<group>"; };
 		3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Com2uSTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A27F1D62D9525010003040B /* Com2usSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Com2usSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +75,6 @@
 				3A0E59FB2D95260D00BF686B /* SnapKit in Frameworks */,
 				3A0C9AAD2D95256600483A20 /* GoogleSignIn in Frameworks */,
 				3A0C9AAF2D95256600483A20 /* GoogleSignInSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A27F1D32D9525010003040B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +262,6 @@
 			isa = PBXGroup;
 			children = (
 				3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */,
-				3A27F1D62D9525010003040B /* Com2usSDKExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,25 +303,6 @@
 			productReference = 3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3A27F1D52D9525010003040B /* Com2usSDKExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3A27F1E82D9525030003040B /* Build configuration list for PBXNativeTarget "Com2usSDKExample" */;
-			buildPhases = (
-				3A27F1D22D9525010003040B /* Sources */,
-				3A27F1D32D9525010003040B /* Frameworks */,
-				3A27F1D42D9525010003040B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Com2usSDKExample;
-			packageProductDependencies = (
-			);
-			productName = Com2usSDKExample;
-			productReference = 3A27F1D62D9525010003040B /* Com2usSDKExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -344,9 +314,6 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					3A27F1C42D9524D10003040B = {
-						CreatedOnToolsVersion = 16.2;
-					};
-					3A27F1D52D9525010003040B = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -370,7 +337,6 @@
 			projectRoot = "";
 			targets = (
 				3A27F1C42D9524D10003040B /* Com2uSTestSDK */,
-				3A27F1D52D9525010003040B /* Com2usSDKExample */,
 			);
 		};
 /* End PBXProject section */
@@ -381,15 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0E5A052D95270500BF686B /* TodoList in Resources */,
-				3A0E5A512D952D3600BF686B /* AuthError.swift in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A27F1D42D9525010003040B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A0E5A4F2D952CA600BF686B /* build_framework.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,13 +380,6 @@
 				3A0E5A292D952A5F00BF686B /* SignInUseCase.swift in Sources */,
 				3A0E5A362D952B2700BF686B /* User.swift in Sources */,
 				3A0E5A482D952C4400BF686B /* NotificationRepository.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A27F1D22D9525010003040B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +459,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -575,6 +526,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -629,66 +581,6 @@
 			};
 			name = Release;
 		};
-		3A27F1E92D9525030003040B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FP8CB3BY93;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Com2usSDKExample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = velmash.Com2usSDKExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3A27F1EA2D9525030003040B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FP8CB3BY93;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Com2usSDKExample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = velmash.Com2usSDKExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -706,15 +598,6 @@
 			buildConfigurations = (
 				3A27F1CE2D9524D10003040B /* Debug */,
 				3A27F1CF2D9524D10003040B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3A27F1E82D9525030003040B /* Build configuration list for PBXNativeTarget "Com2usSDKExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A27F1E92D9525030003040B /* Debug */,
-				3A27F1EA2D9525030003040B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

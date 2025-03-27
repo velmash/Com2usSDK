@@ -1,5 +1,5 @@
 //
-//   권한 확인.swift
+//  LocalNotification.swift
 //  Com2uSTestSDK
 //
 //  Created by 윤형찬 on 3/27/25.

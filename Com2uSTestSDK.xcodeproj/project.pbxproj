@@ -42,6 +42,7 @@
 		3A0E5A552D952E0700BF686B /* NotificationServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */; };
 		3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */; };
 		3A0E5A592D952E4B00BF686B /* AuthServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */; };
+		3A0E5A5B2D9531D100BF686B /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A502D952D3600BF686B /* AuthError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -430,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E5A5B2D9531D100BF686B /* AuthError.swift in Sources */,
 				3A0E5A212D9529FE00BF686B /* NotificationService.swift in Sources */,
 				3A0E5A1C2D9529CE00BF686B /* AuthService.swift in Sources */,
 				3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */,

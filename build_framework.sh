@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 빌드 설정
-FRAMEWORK_NAME="Com2usTestSDK"
+FRAMEWORK_NAME="Com2uSTestSDK"
 CONFIGURATION="Release"
 UNIVERSAL_OUTPUTFOLDER="build/${CONFIGURATION}-universal"
 

@@ -1,5 +1,5 @@
 //
-//  Com2usTestSDK.swift
+//  Com2uSTestSDK.swift
 //  Com2uSTestSDK
 //
 //  Created by 윤형찬 on 3/27/25.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-public final class Com2usTestSDK {
+public final class Com2uSTestSDK {
     // 싱글톤 인스턴스
-    public static let shared = Com2usTestSDK()
+    public static let shared = Com2uSTestSDK()
     
     // 서비스
     public private(set) lazy var auth: AuthService = AuthServiceImpl()

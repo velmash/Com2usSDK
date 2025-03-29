@@ -27,6 +27,8 @@
 		3A0E5A482D952C4400BF686B /* NotificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A472D952C4400BF686B /* NotificationRepository.swift */; };
 		3A0E5A4B2D952C6400BF686B /* ScheduleNotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4A2D952C6400BF686B /* ScheduleNotificationUseCase.swift */; };
 		3A0E5A4D2D952C7600BF686B /* CancelNotificationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4C2D952C7600BF686B /* CancelNotificationUseCase.swift */; };
+		3A0E5A4F2D952CA600BF686B /* build_framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A4E2D952CA600BF686B /* build_framework.sh */; };
+		3A0E5A512D952D3600BF686B /* AuthError.swift in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A502D952D3600BF686B /* AuthError.swift */; };
 		3A0E5A532D952D4300BF686B /* NotificationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A522D952D4300BF686B /* NotificationError.swift */; };
 		3A0E5A552D952E0700BF686B /* NotificationServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */; };
 		3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */; };

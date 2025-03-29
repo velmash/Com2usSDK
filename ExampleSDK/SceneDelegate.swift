@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Com2uSTestSDK
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

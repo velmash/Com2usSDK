@@ -11,7 +11,7 @@ fi
 
 echo "iOS 디바이스용 아카이브 생성 중..."
 xcodebuild archive \
-  -project Com2uSTestSDK.xcodeproj \
+  -workspace Com2uSTestSDK.xcworkspace \
   -scheme Com2uSTestSDK \
   -destination "generic/platform=iOS" \
   -archivePath "./build/iOS.xcarchive" \
@@ -25,7 +25,7 @@ fi
 
 echo "iOS 시뮬레이터용 아카이브 생성 중..."
 xcodebuild archive \
-  -project Com2uSTestSDK.xcodeproj \
+  -workspace Com2uSTestSDK.xcworkspace \
   -scheme Com2uSTestSDK \
   -destination "generic/platform=iOS Simulator" \
   -archivePath "./build/iOS_Simulator.xcarchive" \

@@ -1,0 +1,11 @@
+framework module Com2uSTestSDK {
+  umbrella header "Com2uSTestSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module Com2uSTestSDK.Swift {
+  header "Com2uSTestSDK-Swift.h"
+  requires objc
+}

@@ -1,63 +1,23 @@
-#!/bin/bash
-
-# 설정
-FRAMEWORK_NAME="Com2uSTestSDK"
-CONFIGURATION="Release"
-BUILD_DIR="$(pwd)/build"
-OUTPUT_DIR="${BUILD_DIR}/outputs"
-#SPM_DIR="$(pwd)/${FRAMEWORK_NAME}_Package"
-
-# 디렉터리 준비
-rm -rf "${OUTPUT_DIR}"
-mkdir -p "${OUTPUT_DIR}"
-
-# iOS용 빌드
-echo "Building for iOS devices..."
+# iOS 디바이스용 아카이브 생성
 xcodebuild archive \
-  -project "${FRAMEWORK_NAME}.xcodeproj" \
-  -scheme "${FRAMEWORK_NAME}" \
-  -configuration ${CONFIGURATION} \
+  -workspace Com2uSTestSDK.xcworkspace \
+  -scheme Com2uSTestSDK \
   -destination "generic/platform=iOS" \
-  -archivePath "${OUTPUT_DIR}/ios.xcarchive" \
+  -archivePath "./build/iOS.xcarchive" \
   SKIP_INSTALL=NO \
-  BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
-# Simulator용 빌드
-echo "Building for iOS Simulator..."
+# iOS 시뮬레이터용 아카이브 생성
 xcodebuild archive \
-  -project "${FRAMEWORK_NAME}.xcodeproj" \
-  -scheme "${FRAMEWORK_NAME}" \
-  -configuration ${CONFIGURATION} \
+  -workspace Com2uSTestSDK.xcworkspace \
+  -scheme Com2uSTestSDK \
   -destination "generic/platform=iOS Simulator" \
-  -archivePath "${OUTPUT_DIR}/iossimulator.xcarchive" \
+  -archivePath "./build/iOS_Simulator.xcarchive" \
   SKIP_INSTALL=NO \
-  BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+  BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
-# XCFramework 생성
-echo "Creating XCFramework..."
+# xcframework 생성
 xcodebuild -create-xcframework \
-  -framework "${OUTPUT_DIR}/ios.xcarchive/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework" \
-  -framework "${OUTPUT_DIR}/iossimulator.xcarchive/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework" \
-  -output "${OUTPUT_DIR}/${FRAMEWORK_NAME}.xcframework"
-
-echo "XCFramework created at: ${OUTPUT_DIR}/${FRAMEWORK_NAME}.xcframework"
-
-#let package = Package(
-#    name: "${FRAMEWORK_NAME}",
-#    platforms: [.iOS(.v15)], // 필요에 따라 수정
-#    products: [
-#        .library(
-#            name: "${FRAMEWORK_NAME}",
-#            targets: ["${FRAMEWORK_NAME}"]
-#        )
-#    ],
-#    targets: [
-#        .binaryTarget(
-#            name: "${FRAMEWORK_NAME}",
-#            path: "${FRAMEWORK_NAME}.xcframework"
-#        )
-#    ]
-#)
-#EOF
-#
-#echo "Swift Package created at: ${SPM_DIR}"
+  -framework "./build/iOS.xcarchive/Products/Library/Frameworks/Com2uSTestSDK.framework" \
+  -framework "./build/iOS_Simulator.xcarchive/Products/Library/Frameworks/Com2uSTestSDK.framework" \
+  -output "./build/Com2uSTestSDK.xcframework"

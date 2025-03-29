@@ -1,6 +1,0 @@
-framework module Com2uSTestSDK {
-  umbrella header "Com2uSTestSDK.h"
-  export *
-
-  module * { export * }
-}

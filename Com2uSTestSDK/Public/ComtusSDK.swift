@@ -19,6 +19,8 @@ public final class ComtusSDK {
     public func configure() {
         // SDK 초기화 로직
         NotificationManager.shared.setupNotifications()
+        
+        print("HIHIHIHI")
     }
     
     private init() {}

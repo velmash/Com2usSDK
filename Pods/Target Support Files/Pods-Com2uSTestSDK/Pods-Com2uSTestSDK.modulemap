@@ -1,6 +1,0 @@
-framework module Pods_Com2uSTestSDK {
-  umbrella header "Pods-Com2uSTestSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

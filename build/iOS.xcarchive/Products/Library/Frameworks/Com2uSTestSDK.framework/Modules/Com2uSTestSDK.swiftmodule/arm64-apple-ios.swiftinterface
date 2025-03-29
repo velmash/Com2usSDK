@@ -40,8 +40,8 @@ public enum NotificationError : Swift.Error {
   @objc final public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers final public class Com2uSTestSDK {
-  public static let shared: Com2uSTestSDK.Com2uSTestSDK
+@_hasMissingDesignatedInitializers final public class ComtusSDK {
+  public static let shared: Com2uSTestSDK.ComtusSDK
   final public var auth: any Com2uSTestSDK.AuthService {
     get
   }

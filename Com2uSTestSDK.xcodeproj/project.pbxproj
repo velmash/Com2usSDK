@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BB2BCDDAA09C4591A226403 /* Pods_Com2uSTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B6C2932E4E99D840507C8C /* Pods_Com2uSTestSDK.framework */; };
 		3A0E5A032D95270500BF686B /* Com2uSTestSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A002D95270500BF686B /* Com2uSTestSDK.docc */; };
 		3A0E5A042D95270500BF686B /* Com2uSTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0E59FF2D95270500BF686B /* Com2uSTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A0E5A052D95270500BF686B /* TodoList in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E5A012D95270500BF686B /* TodoList */; };
-		3A0E5A192D95272D00BF686B /* Com2uSTestSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A182D95272D00BF686B /* Com2uSTestSDK.swift */; };
+		3A0E5A192D95272D00BF686B /* ComtusSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A182D95272D00BF686B /* ComtusSDK.swift */; };
 		3A0E5A1C2D9529CE00BF686B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A1B2D9529CE00BF686B /* AuthService.swift */; };
 		3A0E5A212D9529FE00BF686B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A202D9529FE00BF686B /* NotificationService.swift */; };
 		3A0E5A262D952A3D00BF686B /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A252D952A3D00BF686B /* AuthRepository.swift */; };
@@ -33,15 +32,43 @@
 		3A0E5A572D952E2900BF686B /* CancelAllNotificationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */; };
 		3A0E5A592D952E4B00BF686B /* AuthServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */; };
 		3A0E5A5B2D9531D100BF686B /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E5A502D952D3600BF686B /* AuthError.swift */; };
+		3A305AA62D97E677009A551B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3A305AA52D97E677009A551B /* GoogleSignIn */; };
+		3A4AAB862D97E694004CEFF5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3A4AAB852D97E694004CEFF5 /* GoogleSignIn */; };
+		3A4AAB872D97E7DC004CEFF5 /* Com2uSTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */; };
+		3A4AAB882D97E7DC004CEFF5 /* Com2uSTestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A60A5A32D97E624000EA8AA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A60A5A22D97E624000EA8AA /* SnapKit */; };
+		3A69442F2D97E5F800177D3B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A69442E2D97E5F800177D3B /* SnapKit */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3A4AAB892D97E7DC004CEFF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A27F1BC2D9524D10003040B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A27F1C42D9524D10003040B;
+			remoteInfo = Com2uSTestSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A20390E2D97E433009E7E59 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A4AAB882D97E7DC004CEFF5 /* Com2uSTestSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		18B6C2932E4E99D840507C8C /* Pods_Com2uSTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Com2uSTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F42C043E03F777541493BF /* Pods-Com2uSTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Com2uSTestSDK.release.xcconfig"; path = "Target Support Files/Pods-Com2uSTestSDK/Pods-Com2uSTestSDK.release.xcconfig"; sourceTree = "<group>"; };
 		3A0E59FF2D95270500BF686B /* Com2uSTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Com2uSTestSDK.h; sourceTree = "<group>"; };
 		3A0E5A002D95270500BF686B /* Com2uSTestSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Com2uSTestSDK.docc; sourceTree = "<group>"; };
 		3A0E5A012D95270500BF686B /* TodoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = TodoList; sourceTree = "<group>"; };
-		3A0E5A182D95272D00BF686B /* Com2uSTestSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Com2uSTestSDK.swift; sourceTree = "<group>"; };
+		3A0E5A182D95272D00BF686B /* ComtusSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComtusSDK.swift; sourceTree = "<group>"; };
 		3A0E5A1B2D9529CE00BF686B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3A0E5A202D9529FE00BF686B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		3A0E5A252D952A3D00BF686B /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
@@ -64,16 +91,48 @@
 		3A0E5A542D952E0700BF686B /* NotificationServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServiceImpl.swift; sourceTree = "<group>"; };
 		3A0E5A562D952E2900BF686B /* CancelAllNotificationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAllNotificationsUseCase.swift; sourceTree = "<group>"; };
 		3A0E5A582D952E4B00BF686B /* AuthServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceImpl.swift; sourceTree = "<group>"; };
+		3A2038F62D97E3E7009E7E59 /* ExampleSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Com2uSTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		650875CB32A394B6226F88CD /* Pods-Com2uSTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Com2uSTestSDK.debug.xcconfig"; path = "Target Support Files/Pods-Com2uSTestSDK/Pods-Com2uSTestSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3A2039092D97E3E9009E7E59 /* Exceptions for "ExampleSDK" folder in "ExampleSDK" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3A2038F52D97E3E7009E7E59 /* ExampleSDK */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A2038F72D97E3E7009E7E59 /* ExampleSDK */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3A2039092D97E3E9009E7E59 /* Exceptions for "ExampleSDK" folder in "ExampleSDK" target */,
+			);
+			path = ExampleSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		3A2038F32D97E3E7009E7E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A60A5A32D97E624000EA8AA /* SnapKit in Frameworks */,
+				3A4AAB862D97E694004CEFF5 /* GoogleSignIn in Frameworks */,
+				3A4AAB872D97E7DC004CEFF5 /* Com2uSTestSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A27F1C22D9524D10003040B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB2BCDDAA09C4591A226403 /* Pods_Com2uSTestSDK.framework in Frameworks */,
+				3A69442F2D97E5F800177D3B /* SnapKit in Frameworks */,
+				3A305AA62D97E677009A551B /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +155,7 @@
 		3A0E5A172D95271000BF686B /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				3A0E5A182D95272D00BF686B /* Com2uSTestSDK.swift */,
+				3A0E5A182D95272D00BF686B /* ComtusSDK.swift */,
 				3A0E5A1A2D9529C700BF686B /* Auth */,
 				3A0E5A1F2D9529F600BF686B /* Notification */,
 			);
@@ -253,9 +312,9 @@
 			children = (
 				3A0E5A4E2D952CA600BF686B /* build_framework.sh */,
 				3A0E5A022D95270500BF686B /* Com2uSTestSDK */,
+				3A2038F72D97E3E7009E7E59 /* ExampleSDK */,
 				3A3113AE2D953DE10047B5BB /* Frameworks */,
 				3A27F1C62D9524D10003040B /* Products */,
-				6C188C296BFDC71E63982F95 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				3A27F1C52D9524D10003040B /* Com2uSTestSDK.framework */,
+				3A2038F62D97E3E7009E7E59 /* ExampleSDK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,18 +330,8 @@
 		3A3113AE2D953DE10047B5BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18B6C2932E4E99D840507C8C /* Pods_Com2uSTestSDK.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6C188C296BFDC71E63982F95 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				650875CB32A394B6226F88CD /* Pods-Com2uSTestSDK.debug.xcconfig */,
-				37F42C043E03F777541493BF /* Pods-Com2uSTestSDK.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +348,32 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3A2038F52D97E3E7009E7E59 /* ExampleSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A20390A2D97E3E9009E7E59 /* Build configuration list for PBXNativeTarget "ExampleSDK" */;
+			buildPhases = (
+				3A2038F22D97E3E7009E7E59 /* Sources */,
+				3A2038F32D97E3E7009E7E59 /* Frameworks */,
+				3A2038F42D97E3E7009E7E59 /* Resources */,
+				3A20390E2D97E433009E7E59 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4AAB8A2D97E7DC004CEFF5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A2038F72D97E3E7009E7E59 /* ExampleSDK */,
+			);
+			name = ExampleSDK;
+			productName = ExampleSDK;
+			productReference = 3A2038F62D97E3E7009E7E59 /* ExampleSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3A27F1C42D9524D10003040B /* Com2uSTestSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A27F1CD2D9524D10003040B /* Build configuration list for PBXNativeTarget "Com2uSTestSDK" */;
 			buildPhases = (
-				4507B1C002A048027C4AC1A5 /* [CP] Check Pods Manifest.lock */,
 				3A27F1C02D9524D10003040B /* Headers */,
 				3A27F1C12D9524D10003040B /* Sources */,
 				3A27F1C22D9524D10003040B /* Frameworks */,
@@ -327,6 +398,9 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					3A2038F52D97E3E7009E7E59 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					3A27F1C42D9524D10003040B = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -341,17 +415,29 @@
 			);
 			mainGroup = 3A27F1BB2D9524D10003040B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3A69442D2D97E5F800177D3B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3A305AA42D97E677009A551B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3A27F1C62D9524D10003040B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3A27F1C42D9524D10003040B /* Com2uSTestSDK */,
+				3A2038F52D97E3E7009E7E59 /* ExampleSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3A2038F42D97E3E7009E7E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A27F1C32D9524D10003040B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,32 +448,14 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4507B1C002A048027C4AC1A5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		3A2038F22D97E3E7009E7E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Com2uSTestSDK-checkManifestLockResult.txt",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		3A27F1C12D9524D10003040B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,7 +478,7 @@
 				3A0E5A262D952A3D00BF686B /* AuthRepository.swift in Sources */,
 				3A0E5A3A2D952B6300BF686B /* NotificationDelegate.swift in Sources */,
 				3A0E5A2B2D952A6900BF686B /* SignOutUseCase.swift in Sources */,
-				3A0E5A192D95272D00BF686B /* Com2uSTestSDK.swift in Sources */,
+				3A0E5A192D95272D00BF686B /* ComtusSDK.swift in Sources */,
 				3A0E5A412D952BBC00BF686B /* NotificationManager.swift in Sources */,
 				3A0E5A292D952A5F00BF686B /* SignInUseCase.swift in Sources */,
 				3A0E5A362D952B2700BF686B /* User.swift in Sources */,
@@ -420,10 +488,75 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3A4AAB8A2D97E7DC004CEFF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A27F1C42D9524D10003040B /* Com2uSTestSDK */;
+			targetProxy = 3A4AAB892D97E7DC004CEFF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		3A2039072D97E3E9009E7E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP8CB3BY93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExampleSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.velmash.ExampleSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2039082D97E3E9009E7E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FP8CB3BY93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExampleSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.velmash.ExampleSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3A27F1CE2D9524D10003040B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650875CB32A394B6226F88CD /* Pods-Com2uSTestSDK.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,7 +596,6 @@
 		};
 		3A27F1CF2D9524D10003040B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37F42C043E03F777541493BF /* Pods-Com2uSTestSDK.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -633,6 +765,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A20390A2D97E3E9009E7E59 /* Build configuration list for PBXNativeTarget "ExampleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2039072D97E3E9009E7E59 /* Debug */,
+				3A2039082D97E3E9009E7E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3A27F1BF2D9524D10003040B /* Build configuration list for PBXProject "Com2uSTestSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -652,6 +793,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A305AA42D97E677009A551B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 8.0.0;
+			};
+		};
+		3A69442D2D97E5F800177D3B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A305AA52D97E677009A551B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A305AA42D97E677009A551B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3A4AAB852D97E694004CEFF5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A305AA42D97E677009A551B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3A60A5A22D97E624000EA8AA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A69442D2D97E5F800177D3B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		3A69442E2D97E5F800177D3B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A69442D2D97E5F800177D3B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3A27F1BC2D9524D10003040B /* Project object */;
 }

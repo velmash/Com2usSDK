@@ -1150,8 +1150,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Com2uSTestSDK",
-        "printedName": "Com2uSTestSDK",
+        "name": "ComtusSDK",
+        "printedName": "ComtusSDK",
         "children": [
           {
             "kind": "Var",
@@ -1160,14 +1160,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Com2uSTestSDK",
-                "printedName": "Com2uSTestSDK.Com2uSTestSDK",
-                "usr": "s:13Com2uSTestSDKAAC"
+                "name": "ComtusSDK",
+                "printedName": "Com2uSTestSDK.ComtusSDK",
+                "usr": "s:13Com2uSTestSDK06ComtusC0C"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13Com2uSTestSDKAAC6sharedABvpZ",
-            "mangledName": "$s13Com2uSTestSDKAAC6sharedABvpZ",
+            "usr": "s:13Com2uSTestSDK06ComtusC0C6sharedACvpZ",
+            "mangledName": "$s13Com2uSTestSDK06ComtusC0C6sharedACvpZ",
             "moduleName": "Com2uSTestSDK",
             "static": true,
             "declAttributes": [
@@ -1187,14 +1187,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Com2uSTestSDK",
-                    "printedName": "Com2uSTestSDK.Com2uSTestSDK",
-                    "usr": "s:13Com2uSTestSDKAAC"
+                    "name": "ComtusSDK",
+                    "printedName": "Com2uSTestSDK.ComtusSDK",
+                    "usr": "s:13Com2uSTestSDK06ComtusC0C"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13Com2uSTestSDKAAC6sharedABvgZ",
-                "mangledName": "$s13Com2uSTestSDKAAC6sharedABvgZ",
+                "usr": "s:13Com2uSTestSDK06ComtusC0C6sharedACvgZ",
+                "mangledName": "$s13Com2uSTestSDK06ComtusC0C6sharedACvgZ",
                 "moduleName": "Com2uSTestSDK",
                 "static": true,
                 "implicit": true,
@@ -1218,8 +1218,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13Com2uSTestSDKAAC4authAA11AuthService_pvp",
-            "mangledName": "$s13Com2uSTestSDKAAC4authAA11AuthService_pvp",
+            "usr": "s:13Com2uSTestSDK06ComtusC0C4authAA11AuthService_pvp",
+            "mangledName": "$s13Com2uSTestSDK06ComtusC0C4authAA11AuthService_pvp",
             "moduleName": "Com2uSTestSDK",
             "declAttributes": [
               "Final",
@@ -1242,8 +1242,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13Com2uSTestSDKAAC4authAA11AuthService_pvg",
-                "mangledName": "$s13Com2uSTestSDKAAC4authAA11AuthService_pvg",
+                "usr": "s:13Com2uSTestSDK06ComtusC0C4authAA11AuthService_pvg",
+                "mangledName": "$s13Com2uSTestSDK06ComtusC0C4authAA11AuthService_pvg",
                 "moduleName": "Com2uSTestSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1266,8 +1266,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13Com2uSTestSDKAAC12notificationAA19NotificationService_pvp",
-            "mangledName": "$s13Com2uSTestSDKAAC12notificationAA19NotificationService_pvp",
+            "usr": "s:13Com2uSTestSDK06ComtusC0C12notificationAA19NotificationService_pvp",
+            "mangledName": "$s13Com2uSTestSDK06ComtusC0C12notificationAA19NotificationService_pvp",
             "moduleName": "Com2uSTestSDK",
             "declAttributes": [
               "Final",
@@ -1289,8 +1289,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13Com2uSTestSDKAAC12notificationAA19NotificationService_pvg",
-                "mangledName": "$s13Com2uSTestSDKAAC12notificationAA19NotificationService_pvg",
+                "usr": "s:13Com2uSTestSDK06ComtusC0C12notificationAA19NotificationService_pvg",
+                "mangledName": "$s13Com2uSTestSDK06ComtusC0C12notificationAA19NotificationService_pvg",
                 "moduleName": "Com2uSTestSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1312,8 +1312,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13Com2uSTestSDKAAC9configureyyF",
-            "mangledName": "$s13Com2uSTestSDKAAC9configureyyF",
+            "usr": "s:13Com2uSTestSDK06ComtusC0C9configureyyF",
+            "mangledName": "$s13Com2uSTestSDK06ComtusC0C9configureyyF",
             "moduleName": "Com2uSTestSDK",
             "declAttributes": [
               "Final",
@@ -1324,8 +1324,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:13Com2uSTestSDKAAC",
-        "mangledName": "$s13Com2uSTestSDKAAC",
+        "usr": "s:13Com2uSTestSDK06ComtusC0C",
+        "mangledName": "$s13Com2uSTestSDK06ComtusC0C",
         "moduleName": "Com2uSTestSDK",
         "declAttributes": [
           "Final",
